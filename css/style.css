@@ -1,10 +1,3 @@
-@font-face {
-    font-family: 'Starjedi';
-    src: url(../fonts/Starjedi.ttf) format(truetype);
-    font-weight: normal;
-    font-style: normal;
-}
-
 
 * {
     margin: 0;
@@ -24,14 +17,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 2vw;
-}
-
-h1 {
-    color: white;
-    font-size: 3vw;
-    font-family: "Starjedi";
-    font-weight: normal;
-    font-style: normal;
 }
 
 .menu ul {
