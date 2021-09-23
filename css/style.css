@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+	text-decoration: none;
 }
 
 .header {
@@ -24,14 +24,6 @@
 
 }
 
-h1 {
-    color: white;
-    font-size: 3vw;
-    font-family: 'Playfair Display', serif;
-    font-weight: normal;
-    font-style: normal;
-}
-
 .menu ul {
     list-style: none;
     display: flex;
@@ -42,6 +34,10 @@ h1 {
     color: white;
     font-size: 1.5vw;
 }
+
+
+
+/* ---------- Home ---------- */
 
 .btn-liquid {
 	display: inline-block;
@@ -83,6 +79,101 @@ main {
 	max-width: 1200px;
 	padding: 0 1.5em;
 } 
+
+
+/* EDUARDO EDIT */
+
+/* ----- Destinos ----- */
+
+.hr1 {
+	background-color: #ffe81f;
+	width: 80%;
+	height: 1px;
+	border: none;
+	margin: 5vw auto;
+}
+
+hr {
+	width: 60%;
+	height: 1px;
+	background-color: #ffe81f;
+	border: none;
+	margin: 0 auto;
+}
+
+.tituloh2 {
+	color: #ffe81f;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+}
+
+.post {
+	width: 76.7%;
+	height: 25vw;
+	/* border: 1px solid #fff; */
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 2vw;
+}
+
+.imgp1 {
+	height: 60%;
+}
+
+.texto {
+	width: 30%;
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 1vw;
+	text-align: justify;
+	text-indent: 1.5vw;
+}
+
+.destino2 {
+	flex-direction: row-reverse;
+	float: right;
+}
+
+/* ----- Sobre Star Wars ----- */
+
+.sobresw {
+	display: flex;
+	height: 50sw;
+	justify-content: space-around;
+	margin: 4vw;
+}
+
+.textosw {
+	width: 35%;
+	height: 15vw;
+	/* border: 1px solid #ffe81f; */
+	font-family: sans-serif;
+	color: #FFF;
+	font-size: 1vw;
+	text-indent: 1.5vw;
+	text-align: justify;
+	align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * Post List Layout
@@ -323,18 +414,19 @@ h2 a {
 	color: white;
 	background-color: transparent;
 	outline: none;
-  
 }
 
 a:hover {
-	color: #EEDB00;
+	color: #ffe81f;
 }
 
 a:focus {
-	color: #EEDB00;
+	color: #ffe81f;
 	background-color: var(--secondary2-bg-color); 
 }
 
+
+/* ---------- Extras ---------- */
 
 /**
  * Breakpoint 670px
@@ -360,7 +452,7 @@ a:focus {
 
 html {
   height: 300vh;
-    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+    background: radial-gradient(ellipse at bottom, #090A0F 0%, #090A0F 100%);
  }
   
   #stars {
@@ -422,7 +514,7 @@ html {
    }
 
     #title span {
-      background: #EEDB00;
+      background: #ffe81f;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
 
