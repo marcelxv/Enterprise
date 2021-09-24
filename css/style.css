@@ -98,7 +98,7 @@ hr {
 	height: 1px;
 	background-color: #ffe81f;
 	border: none;
-	margin: 0 auto;
+	margin: 7vw auto;
 }
 
 .tituloh2 {
@@ -139,30 +139,77 @@ hr {
 
 .sobresw {
 	display: flex;
-	height: 50sw;
+	width: 80%;
+	height: 20sw;
+	/* border: 1px solid #fff; */
 	justify-content: space-around;
-	margin: 4vw;
-}
-
-.textosw {
-	width: 35%;
-	height: 15vw;
-	/* border: 1px solid #ffe81f; */
-	font-family: sans-serif;
-	color: #FFF;
-	font-size: 1vw;
-	text-indent: 1.5vw;
-	text-align: justify;
 	align-items: center;
+	margin: 4vw auto;
 }
 
+p {
+	color: #fff;
+}
 
+.swimg {
+	width: 30vw;
+	height: 20vw;
+}
 
+.subh2 {
+	color: #ffe81f;
+	font-size: 1.5vw;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 8vw 0;
+}
 
+.ssw1 {
+	flex-direction: row-reverse;
+}
 
+.txsw {
+	font-size: 1.3vw;
+}
 
+.textoforca {
+	display: flex;
+	width: 80%;
+	height: 10vw;
+	margin: 8vw auto;
+}
 
+.txforca {
+	font-family: sans-serif;
+	font-size: 1.3vw;
+	text-align: justify;
+	text-indent: 1.5vw;
+}
 
+.jedi {
+	width: 80%;
+	height: 12vw;
+	display: flex;
+	flex-direction: column;
+	margin: 8vw auto;
+	border-left: 2px solid #ffe81f;
+}
+
+.h2jedi {
+	color: #ffe81f;
+	font-size: 1.5vw;
+	font-family: 'Playfair Display', serif;
+	text-transform: uppercase;
+	margin: 0 0 2vw 4vw;
+}
+
+li {
+	color: #fff;
+	width: 40%;
+	font-size: 1.3vw;
+	margin-left: 4vw;
+}
 
 
 
