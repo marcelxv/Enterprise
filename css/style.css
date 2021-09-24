@@ -10,6 +10,8 @@
     padding: 0;
     box-sizing: border-box;
 	text-decoration: none;
+
+
 }
 
 .header {
@@ -86,7 +88,7 @@ main {
 /* ----- Destinos ----- */
 
 .hr1 {
-	background-color: #ffe81f;
+	background-color: #e89e10;
 	width: 80%;
 	height: 1px;
 	border: none;
@@ -96,13 +98,13 @@ main {
 hr {
 	width: 60%;
 	height: 1px;
-	background-color: #ffe81f;
+	background-color: #e89e10;
 	border: none;
 	margin: 7vw auto;
 }
 
 .tituloh2 {
-	color: #ffe81f;
+	color: #e89e10;
 	font-family: 'Playfair Display', serif;
 	text-align: center;
 }
@@ -122,12 +124,12 @@ hr {
 }
 
 .texto {
-	width: 30%;
 	color: #fff;
-	font-family: sans-serif;
 	font-size: 1vw;
-	text-align: justify;
 	text-indent: 1.5vw;
+	line-height: 1.6vw;
+	font-family: 'Montserrat';
+
 }
 
 .destino2 {
@@ -157,7 +159,7 @@ p {
 }
 
 .subh2 {
-	color: #ffe81f;
+	color: #e89e10;
 	font-size: 1.5vw;
 	font-family: 'Playfair Display', serif;
 	text-align: center;
@@ -193,18 +195,18 @@ p {
 	display: flex;
 	flex-direction: column;
 	margin: 8vw auto;
-	border-left: 2px solid #ffe81f;
+	border-left: 2px solid #e89e10;
 }
 
 .h2jedi {
-	color: #ffe81f;
+	color: #e89e10;
 	font-size: 1.5vw;
 	font-family: 'Playfair Display', serif;
 	text-transform: uppercase;
 	margin: 0 0 2vw 4vw;
 }
 
-li {
+.jedi li {
 	color: #fff;
 	width: 40%;
 	font-size: 1.3vw;
@@ -464,11 +466,11 @@ h2 a {
 }
 
 a:hover {
-	color: #ffe81f;
+	color: #e89e10;
 }
 
 a:focus {
-	color: #ffe81f;
+	color: #e89e10;
 	background-color: var(--secondary2-bg-color); 
 }
 
@@ -557,11 +559,11 @@ html {
     font-family: 'Playfair Display', serif;
     font-size: 50px;
     letter-spacing: 10px;
-    margin-top: 20%;
+    margin-top: 10%;
    }
 
     #title span {
-      background: #ffe81f;
+      background: #e89e10;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
 
@@ -578,4 +580,178 @@ html {
       transform: translateY(0px); }
     to {
       transform: translateY(-2000px); } }
-  
+
+
+	  .button-images {
+		width: 80%;
+		margin: 75px auto;
+		
+		
+		  
+		}
+		
+		.button-container {
+		position: relative;
+		text-align: center;
+		padding: 0;
+		overflow:hidden; 
+
+		}
+		
+		
+		
+		.button-container A:before{  
+		  content: '';
+		  display: inline-block;
+		  height: 48%; 
+		  /* 
+		  vertical-align:middle; 
+		  height: 100%;*/
+		  
+		 
+		  }
+		
+
+		  .hero-img {
+			  width: 300px;
+		  }
+		
+		.button-container a {
+		  transition: all 1s ease-out;
+		  background-color: rgba(0, 0, 0, 0.673);
+		  border-radius: 100%;
+		  padding:5%; 
+		  color: #FFFFFF;
+		  position:absolute;
+		  font-size: 0.9em; 
+		  font-weight: 700; 
+		  top: 0;
+		  left:0;
+		  right:0;
+		  bottom:0;
+		  display:inline-block;
+		  text-decoration: none;
+		  text-transform:uppercase;
+		  font-family: 'Montserrat';
+		}
+		
+		.button-container A:hover {
+		  background: none;
+		  border: none; 
+		  opacity:0;
+		}
+		.button-container img{width:100%; height:auto; display:block}
+		
+		
+		/*Columns*/
+		.one_half, .one_third, .two_third, .three_fourth, .one_fourth, .one_fifth, .two_fifth, .three_fifth, .four_fifth, .one_sixth, .five_sixth {
+		position: relative;
+		margin-right: 4%;
+		float: left;
+		min-height: 1px;
+		height: auto !important;
+		}
+		
+		.one_fourth {
+		width: 22%;
+		}
+		
+		.three_fourth {
+		width: 74%;
+		}
+		
+		.one_fifth {
+		width: 16.8%;
+		}
+		
+		.two_fifth {
+		width: 37.6%;
+		}
+		
+		.three_fifth {
+		width: 58.4%;
+		}
+		
+		.four_fifth {
+		width: 79.2%;
+		}
+		
+		.one_sixth {
+		width: 13.3333%;
+		}
+		
+		.three_sixth {
+		width: 47.9998%;
+		}
+		
+		.five_sixth {
+		width: 82.6665%;
+		}
+		
+		.last {
+		margin-right: 0 !important;
+		clear: right;
+		}
+		
+		.clearboth {
+		clear: both;
+		display: block;
+		font-size: 0;
+		height: 0;
+		line-height: 0;
+		width: 100%;
+		}
+		
+		.spacer {
+		height: 15px;
+		}
+		
+		.one_half .one_half {
+		margin-right: 8.3333%;
+		width: 45.8333%;
+		}
+		
+		.one_half .one_third {
+		margin-right: 8.3333%;
+		width: 27.7778%;
+		}
+		
+		.one_half .two_third {
+		margin-right: 8.3333%;
+		width: 63.8889%;
+		}
+		
+		.two_third .one_third {
+		margin-right: 6.1224%;
+		width: 29.2517%;
+		}
+		
+		.two_third .two_third {
+		margin-right: 6.1224%;
+		width: 64.6258%;
+		}
+		
+		.two_third .one_fourth {
+		margin-right: 6.1224%;
+		width: 20.4082%;
+		}
+		
+		.one_half, .two_fourth {
+		width: 48%;
+		}
+		
+		.one_third, .two_sixth {
+		width: 30.6666%;
+		}
+		
+		.two_third, .four_sixth {
+		width: 65.3332%;
+		}
+		
+		
+  #destinos {
+font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 45px;  }
