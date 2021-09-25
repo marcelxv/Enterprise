@@ -1,3 +1,21 @@
+	// Scroll
+
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+
+
+
 $(function() {
 	// Vars
 	var pointsA = [],
@@ -166,7 +184,7 @@ $(function() {
 
 		// Clear scene
 		context.clearRect(0, 0, $canvas.width(), $canvas.height());
-		context.fillStyle = '#fff';
+		context.fillStyle = 'transparent';
 		context.fillRect(0, 0, $canvas.width(), $canvas.height());
 
 		// Move points
@@ -181,8 +199,8 @@ $(function() {
 		var distance = Math.sqrt(Math.pow(gradientX - $canvas.width()/2, 2) + Math.pow(gradientY - $canvas.height()/2, 2)) / Math.sqrt(Math.pow($canvas.width()/2, 2) + Math.pow($canvas.height()/2, 2));
 
 		var gradient = context.createRadialGradient(gradientX, gradientY, 300+(300*distance), gradientX, gradientY, 0);
-		gradient.addColorStop(0, '#102ce5');
-		gradient.addColorStop(1, '#E406D6');
+		gradient.addColorStop(0, '#e89e10');
+		gradient.addColorStop(1, 'white');
 
 		// Draw shapes
 		var groups = [pointsA, pointsB]
@@ -192,7 +210,7 @@ $(function() {
 
 			if (j == 0) {
 				// Background style
-				context.fillStyle = '#1CE2D8';
+				context.fillStyle = '#e89e10';
 			} else {
 				// Foreground style
 				context.fillStyle = gradient;
