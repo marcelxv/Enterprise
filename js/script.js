@@ -1,3 +1,4 @@
+
 $(function() {
 	// Vars
 	var pointsA = [],
