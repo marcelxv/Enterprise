@@ -993,3 +993,11 @@ html {
 	  a.button:visited {
 		color: gray;
 	}
+
+	#popup1 {
+font-size: 16px;
+	}
+
+	a:visited {
+		color:rgb(232, 158, 16)
+	}
